@@ -56,10 +56,20 @@
 
 
 
-import asyncio
-async def my_function():
-    print("Hello World!")
-    await asyncio.sleep(5)
-    print("How Are You!")
-asyncio.run(my_function())
+# import asyncio
+# async def my_function():
+#     print("Hello World!")
+#     await asyncio.sleep(5)
+#     print("How Are You!")
+# asyncio.run(my_function())
     
+    
+    
+    import asyncio
+x = "Awesome"
+
+async def my_function():
+    print("Python is " , x)
+    await asyncio.sleep(5)
+    print("Yes Python is" , x)
+asyncio.run(my_function())
